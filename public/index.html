@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAISON AURORE — Objects of Desire</title>
+  <meta name="description" content="A private house of objects and rituals. Luxury leather goods, ready-to-wear, footwear and travel objects crafted with restraint and permanence.">
+  <meta name="theme-color" content="#1B1B1B">
+  <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body class="is-loading">
+
+  <!-- ═══ PRELOADER ═══ -->
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__logo">Maison Aurore</div>
+    <div class="preloader__tagline">Objects of Desire</div>
+    <div class="preloader__line"></div>
+  </div>
+
+  <!-- ═══ ANNOUNCEMENT BAR ═══ -->
+  <div class="announcement" role="marquee" aria-label="Announcements">
+    <div class="announcement__item">Complimentary delivery on selected orders</div>
+    <div class="announcement__item">Private client services available</div>
+    <div class="announcement__item">Crafted returns within 30 days</div>
+    <div class="announcement__item">By appointment — online and in store</div>
+  </div>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav class="navbar navbar--dark" role="navigation" aria-label="Main navigation">
+    <a href="index.html" class="navbar__logo">Maison Aurore</a>
+
+    <ul class="navbar__links">
+      <li><a href="women.html" class="navbar__link">Women</a></li>
+      <li><a href="men.html" class="navbar__link">Men</a></li>
+      <li><a href="objects.html" class="navbar__link">Objects</a></li>
+      <li><a href="journal.html" class="navbar__link">Journal</a></li>
+      <li><a href="maison.html" class="navbar__link">Maison</a></li>
+    </ul>
+
+    <div class="navbar__actions">
+      <button class="navbar__action" data-open-search aria-label="Search">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg>
+      </button>
+      <button class="navbar__action" data-open-cart aria-label="Shopping bag">
+        <svg viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <span class="navbar__cart-count" aria-label="Cart items">0</span>
+      </button>
+      <button class="hamburger" aria-label="Menu" aria-expanded="false">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ MOBILE NAV ═══ -->
+  <div class="mobile-nav" aria-hidden="true">
+    <div class="mobile-nav__links">
+      <a href="women.html" class="mobile-nav__link">Women</a>
+      <a href="men.html" class="mobile-nav__link">Men</a>
+      <a href="objects.html" class="mobile-nav__link">Objects</a>
+      <a href="journal.html" class="mobile-nav__link">Journal</a>
+      <a href="maison.html" class="mobile-nav__link">Maison</a>
+    </div>
+    <div class="mobile-nav__footer">
+      <div class="mobile-nav__footer-text">Private client services: contact@maisonaurore.com</div>
+    </div>
+  </div>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero" id="hero">
+    <div class="hero__media">
+      <video autoplay muted loop playsinline preload="auto">
+        <source src="assets/images/campaign/hero-cinematic.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="hero__overlay"></div>
+
+    <div class="hero__content">
+      <div class="hero__label reveal" data-stagger="0">Spring / Summer Collection — Atelier Edition</div>
+      <h1 class="hero__title">
+        <span class="reveal" data-stagger="1">Objects</span><br>
+        <span class="reveal" data-stagger="2"><em>of</em></span><br>
+        <span class="reveal" data-stagger="3">Desire</span>
+      </h1>
+      <p class="hero__subtitle reveal" data-stagger="4">Crafted to be kept. Designed with restraint.<br>A study in proportion, texture, and movement.</p>
+    </div>
+
+    <div class="hero__scroll">
+      <span class="hero__scroll-text">Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══ MAISON STATEMENT ═══ -->
+  <section class="section section--ivory">
+    <div class="statement">
+      <div class="statement__label reveal">The House</div>
+      <h2 class="statement__text reveal" data-stagger="1">
+        A study in leather, proportion<br>and <em>movement.</em>
+      </h2>
+      <p class="statement__sub reveal" data-stagger="2">
+        Designed for permanence, shaped for everyday ritual. Each object in the Maison Aurore collection is conceived to endure — built around touch, travel, and the quiet ceremonies of daily life.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══ MARQUEE ═══ -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span class="marquee__item">Leather Goods</span>
+      <span class="marquee__separator">◆</span>
+      <span class="marquee__item">Ready-to-Wear</span>
+      <span class="marquee__separator">◆</span>
+      <span class="marquee__item">Footwear</span>
+      <span class="marquee__separator">◆</span>
+      <span class="marquee__item">Travel Objects</span>
+      <span class="marquee__separator">◆</span>
+      <span class="marquee__item">Fragrance</span>
+      <span class="marquee__separator">◆</span>
+      <span class="marquee__item">Accessories</span>
+      <span class="marquee__separator">◆</span>
+    </div>
+  </div>
+
+  <!-- ═══ FEATURED COLLECTION — EDITORIAL BLOCK ═══ -->
+  <section class="editorial" id="featured">
+    <div class="editorial__media reveal-scale">
+      <img src="assets/images/campaign/women-hero.jpeg" alt="Woman in sand silk dress — MAISON AURORE campaign" loading="lazy">
+    </div>
+    <div class="editorial__content">
+      <span class="editorial__label reveal">Women's Collection</span>
+      <h2 class="editorial__title reveal" data-stagger="1">Quiet presence.<br>Lasting form.</h2>
+      <p class="editorial__text reveal" data-stagger="2">
+        Fluid silhouettes in heavy silk and sculpted leather. Pieces conceived for the rituals you return to — designed to age beautifully, shaped through patient construction.
+      </p>
+      <a href="women.html" class="editorial__link reveal" data-stagger="3">
+        Explore the Collection
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <section class="editorial editorial--reverse editorial--dark" id="mens">
+    <div class="editorial__media reveal-scale">
+      <img src="assets/images/campaign/men-hero.jpeg" alt="Man in charcoal overcoat — MAISON AURORE campaign" loading="lazy">
+    </div>
+    <div class="editorial__content">
+      <span class="editorial__label reveal">Men's Collection</span>
+      <h2 class="editorial__title reveal" data-stagger="1">Structured calm.<br>Architectural ease.</h2>
+      <p class="editorial__text reveal" data-stagger="2">
+        Tailored precision in Italian wool, Mongolian cashmere, and burnished calfskin. Objects built around ritual, travel, and touch — for the man who values restraint over spectacle.
+      </p>
+      <a href="men.html" class="editorial__link reveal" data-stagger="3">
+        Explore the Collection
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══ PRODUCT SHOWCASE ═══ -->
+  <section class="section section--bone" id="selection">
+    <div class="container">
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:3rem;flex-wrap:wrap;gap:1rem;">
+        <div>
+          <span class="text-label text-taupe reveal">Curated Selection</span>
+          <h2 class="text-h1 reveal" data-stagger="1" style="margin-top:0.75rem;">Objects chosen slowly.</h2>
+        </div>
+        <a href="objects.html" class="btn btn--ghost reveal" data-stagger="2">
+          View All
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="width:14px;height:14px"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="product-grid product-grid--3col">
+
+        <!-- Product 1: Aurore Soft Carryall -->
+        <div class="product-card reveal" data-stagger="0" data-product="aurore-soft-carryall">
+          <div class="product-card__media">
+            <div class="product-card__placeholder" style="background:linear-gradient(145deg, #E8E0D4 0%, #D8D1C7 50%, #c4b9ac 100%);">A</div>
+            <span class="product-card__badge">New Season</span>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Aurore Soft Carryall</h3>
+            <p class="product-card__material">Smooth Calfskin</p>
+            <p class="product-card__price">$2,850</p>
+            <div class="product-card__action">
+              <button class="btn btn--sm btn--outline" data-add-to-cart="aurore-soft-carryall">Add to Selection</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2: Bias-Cut Silk Dress -->
+        <div class="product-card reveal" data-stagger="1" data-product="silk-dress">
+          <div class="product-card__media">
+            <div class="product-card__placeholder" style="background:linear-gradient(145deg, #F5F1EA 0%, #E8E0D4 50%, #D8D1C7 100%);">S</div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Bias-Cut Silk Dress</h3>
+            <p class="product-card__material">Heavy Sand Silk</p>
+            <p class="product-card__price">$2,200</p>
+            <div class="product-card__action">
+              <button class="btn btn--sm btn--outline" data-add-to-cart="silk-dress">Select Size</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3: Draped Wool Overcoat -->
+        <div class="product-card reveal" data-stagger="2" data-product="wool-overcoat">
+          <div class="product-card__media">
+            <div class="product-card__placeholder" style="background:linear-gradient(145deg, #333 0%, #1B1B1B 50%, #111 100%);color:#8A8178;">O</div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Draped Wool Overcoat</h3>
+            <p class="product-card__material">Italian Wool Cashmere</p>
+            <p class="product-card__price">$4,800</p>
+            <div class="product-card__action">
+              <button class="btn btn--sm btn--outline" data-add-to-cart="wool-overcoat">Select Size</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ VISUAL BREAK — ATELIER ═══ -->
+  <div class="visual-break visual-break--parallax">
+    <img src="assets/images/campaign/gallery-interior.jpeg" alt="Maison Aurore interior — pale limestone and light" loading="lazy" class="parallax-drift">
+    <div class="visual-break__overlay"></div>
+    <div class="visual-break__content">
+      <span class="visual-break__caption reveal">The Atelier — Paris</span>
+      <h3 class="visual-break__title reveal" data-stagger="1">Where patience becomes form.</h3>
+    </div>
+  </div>
+
+  <!-- ═══ CRAFT / SIGNATURE DETAILS ═══ -->
+  <section class="section section--ivory" id="craft">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:4rem;">
+        <span class="text-label text-taupe reveal">Signature Details</span>
+        <h2 class="text-h1 reveal" data-stagger="1" style="margin-top:0.75rem;">Construction & Craft</h2>
+      </div>
+      <div class="craft">
+        <div class="craft__item reveal" data-stagger="0">
+          <div class="craft__line"></div>
+          <h3 class="craft__title">Hand-Finished Leather</h3>
+          <p class="craft__text">Each hide is hand-selected and finished using techniques passed through three generations of European tanneries.</p>
+        </div>
+        <div class="craft__item reveal" data-stagger="1">
+          <div class="craft__line"></div>
+          <h3 class="craft__title">Italian-Milled Textiles</h3>
+          <p class="craft__text">Wools, silks and cashmeres sourced from mills in Biella and Como — materials selected for aging beautifully over decades.</p>
+        </div>
+        <div class="craft__item reveal" data-stagger="2">
+          <div class="craft__line"></div>
+          <h3 class="craft__title">Sculpted Comfort</h3>
+          <p class="craft__text">Proportions studied in motion. Every pattern is draped on the body before construction — shaped for how life actually moves.</p>
+        </div>
+        <div class="craft__item reveal" data-stagger="3">
+          <div class="craft__line"></div>
+          <h3 class="craft__title">Limited-Run Hardware</h3>
+          <p class="craft__text">Brass fittings cast in small batches, hand-polished to a warm satin finish. No logos — only the quality of the material speaks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ EDITORIAL PRODUCT FEATURE ═══ -->
+  <section class="editorial editorial--dark">
+    <div class="editorial__content">
+      <span class="editorial__label reveal">Leather Goods</span>
+      <h2 class="editorial__title reveal" data-stagger="1">The Atelier<br>Travel Case</h2>
+      <p class="editorial__text reveal" data-stagger="2">
+        Vegetable-tanned leather. Hand-stitched edges. Brass zipper with custom pull. An object built around the ritual of packing — and the quiet pleasure of arriving.
+      </p>
+      <p class="reveal" data-stagger="3" style="font-family:var(--font-display);font-size:1.15rem;margin-bottom:2rem;">$980</p>
+      <button class="btn btn--ivory reveal" data-stagger="4" data-add-to-cart="travel-case">
+        Add to Selection
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="width:14px;height:14px"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+    <div class="editorial__media reveal-scale">
+      <img src="assets/images/campaign/dark-product.jpeg" alt="Atelier Travel Case in dark calfskin" loading="lazy">
+    </div>
+  </section>
+
+  <!-- ═══ CURATED COLLECTIONS ═══ -->
+  <section class="section section--bone" id="essentials">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:3rem;">
+        <span class="text-label text-taupe reveal">The Essentials</span>
+        <h2 class="text-h1 reveal" data-stagger="1" style="margin-top:0.75rem;">Curated Edits</h2>
+      </div>
+
+      <div class="curated-grid">
+        <div class="curated-grid__item reveal-scale">
+          <img src="assets/images/campaign/quiet-luxury.jpeg" alt="Soft Structure — curated edit" loading="lazy">
+          <div class="curated-grid__overlay"></div>
+          <div class="curated-grid__content">
+            <span class="curated-grid__label">Edit 01</span>
+            <h3 class="curated-grid__title">Soft Structure</h3>
+          </div>
+        </div>
+        <div class="curated-grid__item reveal-scale" data-stagger="1">
+          <img src="assets/images/campaign/shadow-fabric.jpeg" alt="Evening Study — curated edit" loading="lazy">
+          <div class="curated-grid__overlay"></div>
+          <div class="curated-grid__content">
+            <span class="curated-grid__label">Edit 02</span>
+            <h3 class="curated-grid__title">Evening Study</h3>
+          </div>
+        </div>
+        <div class="curated-grid__item reveal-scale" data-stagger="2">
+          <img src="assets/images/campaign/product-hero.jpeg" alt="Travel Edit — curated edit" loading="lazy">
+          <div class="curated-grid__overlay"></div>
+          <div class="curated-grid__content">
+            <span class="curated-grid__label">Edit 03</span>
+            <h3 class="curated-grid__title">Travel Edit</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ MORE PRODUCTS ═══ -->
+  <section class="section section--ivory">
+    <div class="container">
+      <div style="display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:3rem;flex-wrap:wrap;gap:1rem;">
+        <div>
+          <span class="text-label text-taupe reveal">New Arrivals</span>
+          <h2 class="text-h1 reveal" data-stagger="1" style="margin-top:0.75rem;">Made to be kept.</h2>
+        </div>
+      </div>
+
+      <div class="product-grid product-grid--asymmetric">
+
+        <div class="product-card reveal" data-stagger="0" data-product="evening-clutch">
+          <div class="product-card__media">
+            <div class="product-card__placeholder" style="background:linear-gradient(145deg, #1B1B1B 0%, #333 100%);color:#8A8178;">E</div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Evening Fold Clutch</h3>
+            <p class="product-card__material">Polished Leather</p>
+            <p class="product-card__price">$1,450</p>
+            <div class="product-card__action">
+              <button class="btn btn--sm btn--outline" data-add-to-cart="evening-clutch">Add to Selection</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal" data-stagger="1" data-product="fragrance">
+          <div class="product-card__media">
+            <div class="product-card__placeholder" style="background:linear-gradient(145deg, #D8D1C7 0%, #8A8178 100%);">№</div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Eau de Maison — №1</h3>
+            <p class="product-card__material">Amber, Leather, Fig Leaf</p>
+            <p class="product-card__price">$320</p>
+            <div class="product-card__action">
+              <button class="btn btn--sm btn--outline" data-add-to-cart="fragrance">Select Volume</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal" data-stagger="2" data-product="cashmere-knit">
+          <div class="product-card__media">
+            <div class="product-card__placeholder" style="background:linear-gradient(145deg, #FCFAF6 0%, #E8E0D4 100%);">C</div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Essential Cashmere Knit</h3>
+            <p class="product-card__material">Mongolian Cashmere</p>
+            <p class="product-card__price">$1,650</p>
+            <div class="product-card__action">
+              <button class="btn btn--sm btn--outline" data-add-to-cart="cashmere-knit">Select Size</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ VIDEO BREAK ═══ -->
+  <div class="visual-break">
+    <video autoplay muted loop playsinline>
+      <source src="assets/images/campaign/woman-reveal.mp4" type="video/mp4">
+    </video>
+    <div class="visual-break__overlay"></div>
+    <div class="visual-break__content">
+      <span class="visual-break__caption reveal">Campaign Film</span>
+      <h3 class="visual-break__title reveal" data-stagger="1">For the rituals you return to.</h3>
+    </div>
+  </div>
+
+  <!-- ═══ SUSTAINABILITY / ETHOS ═══ -->
+  <section class="section--ivory" id="ethos">
+    <div class="ethos">
+      <div class="ethos__item reveal" data-stagger="0">
+        <div class="ethos__icon">◇</div>
+        <h3 class="ethos__title">Responsibly Sourced</h3>
+        <p class="ethos__text">Leather from certified tanneries with traceable supply chains.</p>
+      </div>
+      <div class="ethos__item reveal" data-stagger="1">
+        <div class="ethos__icon">△</div>
+        <h3 class="ethos__title">Small-Batch Production</h3>
+        <p class="ethos__text">Crafted in limited quantities to honor the materials and the makers.</p>
+      </div>
+      <div class="ethos__item reveal" data-stagger="2">
+        <div class="ethos__icon">○</div>
+        <h3 class="ethos__title">Recycled Packaging</h3>
+        <p class="ethos__text">FSC-certified papers, vegetable inks, and minimal wrapping.</p>
+      </div>
+      <div class="ethos__item reveal" data-stagger="3">
+        <div class="ethos__icon">□</div>
+        <h3 class="ethos__title">Designed for Longevity</h3>
+        <p class="ethos__text">Objects conceived to outlast trend cycles — repair program included.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ NEWSLETTER / PRIVATE NOTES ═══ -->
+  <section class="section section--bone">
+    <div class="newsletter">
+      <span class="newsletter__label reveal">Private Notes</span>
+      <h2 class="newsletter__title reveal" data-stagger="1">From the Maison</h2>
+      <p class="newsletter__text reveal" data-stagger="2">
+        For early access, studio letters, and collection releases.<br>
+        Delivered with restraint — never more than twice monthly.
+      </p>
+      <form class="newsletter__form reveal" data-stagger="3" onsubmit="event.preventDefault(); this.querySelector('input').value='Thank you.'; this.querySelector('button').style.display='none';">
+        <input type="email" class="newsletter__input" placeholder="Your email address" required aria-label="Email address">
+        <button type="submit" class="newsletter__submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ═══ FINAL INVITATION ═══ -->
+  <section class="section section--ink">
+    <div class="invitation">
+      <h2 class="invitation__title text-ivory reveal">Enter the collection.</h2>
+      <div class="divider--brass reveal" data-stagger="1" style="width:40px;height:1px;background:var(--brass);margin:2rem auto;"></div>
+      <p class="text-small text-stone reveal" data-stagger="2" style="max-width:400px;margin:0 auto 2.5rem;line-height:1.7;">
+        By design, not by excess. Objects built to endure — for those who choose slowly and keep with intention.
+      </p>
+      <a href="objects.html" class="btn btn--ivory reveal" data-stagger="3">
+        Discover the House
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="width:14px;height:14px"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__top">
+      <div class="footer__manifesto">
+        <div class="footer__manifesto-logo">Maison Aurore</div>
+        <p class="footer__manifesto-text">
+          "We make objects for the rituals you return to. Crafted in limited quantities, designed for permanence, shaped for everyday grace."
+        </p>
+      </div>
+
+      <div>
+        <h3 class="footer__heading">Collections</h3>
+        <div class="footer__links">
+          <a href="women.html" class="footer__link">Women</a>
+          <a href="men.html" class="footer__link">Men</a>
+          <a href="objects.html" class="footer__link">Objects & Travel</a>
+          <a href="#selection" class="footer__link">New Arrivals</a>
+          <a href="#essentials" class="footer__link">The Essentials</a>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="footer__heading">The House</h3>
+        <div class="footer__links">
+          <a href="maison.html" class="footer__link">Our Story</a>
+          <a href="journal.html" class="footer__link">Journal</a>
+          <a href="maison.html#craft" class="footer__link">Craftsmanship</a>
+          <a href="maison.html#materials" class="footer__link">Materials</a>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="footer__heading">Client Services</h3>
+        <div class="footer__links">
+          <a href="#" class="footer__link">Contact</a>
+          <a href="#" class="footer__link">Shipping & Returns</a>
+          <a href="#" class="footer__link">Care Guide</a>
+          <a href="#" class="footer__link">Size Guide</a>
+          <a href="#" class="footer__link">Private Appointments</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span class="footer__legal">© <span id="current-year">2026</span> Maison Aurore. All rights reserved.</span>
+      <div class="footer__social">
+        <a href="#" class="footer__social-link">Instagram</a>
+        <a href="#" class="footer__social-link">Pinterest</a>
+        <a href="#" class="footer__social-link">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══ CART DRAWER ═══ -->
+  <div class="cart-overlay" aria-hidden="true"></div>
+  <div class="cart-drawer" role="dialog" aria-label="Shopping bag" aria-hidden="true">
+    <div class="cart-drawer__header">
+      <div>
+        <span class="cart-drawer__title">Your Selection</span>
+        <span class="cart-drawer__count" style="display:block;margin-top:0.25rem;"></span>
+      </div>
+      <button class="cart-drawer__close" aria-label="Close bag">
+        <svg viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="cart-drawer__items">
+      <!-- Cart items rendered by JS -->
+    </div>
+    <div class="cart-drawer__footer">
+      <div class="cart-drawer__subtotal">
+        <span class="cart-drawer__subtotal-label">Subtotal</span>
+        <span class="cart-drawer__subtotal-value">$0</span>
+      </div>
+      <div class="cart-drawer__shipping">Complimentary shipping on orders over $500</div>
+      <button class="cart-drawer__checkout">Proceed to Checkout</button>
+    </div>
+  </div>
+
+  <!-- ═══ SEARCH PANEL ═══ -->
+  <div class="search-panel" role="dialog" aria-label="Search" aria-hidden="true">
+    <button class="search-panel__close" aria-label="Close search">
+      <svg viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <span class="search-panel__label">Search the Collection</span>
+    <div class="search-panel__input-wrap">
+      <input type="search" class="search-panel__input" placeholder="What are you looking for?" autocomplete="off" aria-label="Search products">
+    </div>
+    <div class="search-panel__results" aria-live="polite"></div>
+  </div>
+
+  <!-- ═══ SIZE MODAL ═══ -->
+  <div class="size-modal" role="dialog" aria-label="Select size" aria-hidden="true">
+    <div class="size-modal__overlay"></div>
+    <div class="size-modal__panel">
+      <div class="size-modal__header">
+        <div>
+          <div class="size-modal__name"></div>
+          <div class="size-modal__material"></div>
+        </div>
+        <div style="display:flex;align-items:center;gap:1.5rem;">
+          <div class="size-modal__price"></div>
+          <button class="size-modal__close" aria-label="Close">
+            <svg viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="size-modal__label size-modal__label--size">Select Size</div>
+      <div class="size-modal__sizes"></div>
+      <div class="size-modal__label size-modal__label--color">Select Colour</div>
+      <div class="size-modal__colors"></div>
+      <button class="size-modal__add">Add to Selection</button>
+    </div>
+  </div>
+
+  <!-- ═══ SCRIPTS ═══ -->
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/search.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>
